@@ -1,6 +1,10 @@
 <template>
   <div>
-    <svg ref="svg">
+    <svg
+      ref="svg"
+      width="100%"
+      height="100%"
+    >
       <text
         v-for="line, idx in props.lines"
         :key="line"
